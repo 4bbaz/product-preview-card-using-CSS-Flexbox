@@ -33,8 +33,13 @@
   border-radius: 10px;
   overflow: hidden;
 }
-img {
+
+.img-desktop {
   width: 300px;
+}
+
+.img-mobile{
+    display: none;
 }
 
 .details {
@@ -95,18 +100,15 @@ button:hover{
 /* =======Mobile====== */
 @media screen and (max-width: 550px) {
   .product {
-    display: flex;
     flex-direction: column;
     width: 390px;
     height: auto;
   }
-  img {
-    width: 400px;
+  .img-desktop{
+    display: none;
   }
-
-  .img {
-    height: 300px;
-    overflow: hidden;
+  .img-mobile{
+    display: inline;
   }
 
   button{
