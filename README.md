@@ -21,7 +21,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ![mobile](screenshots/mobile.png)
 
 ### Desktop
-![Desktop](screenshots/Desktop.png)
+![Desktop](screenshots/desktop1.png)
 
 
 
